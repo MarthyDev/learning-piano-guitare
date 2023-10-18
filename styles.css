@@ -1,0 +1,496 @@
+*{ 
+	margin:0;
+	Padding:0;
+	}
+
+body{
+	background-color: gray;
+	background-size: 2600px;
+	}
+
+header{
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	width: 100%;
+	height:110px;
+	background-color: indianred;
+	}
+	
+h1{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	margin: 10px auto 10px;
+	padding-top: 20px;
+	padding-left: 110px;
+	font-family: Georgia;
+	}
+	
+#cledesol{
+	height: 120px;
+	width: 100px;
+	background: url(cledesol.jpg) no-repeat;
+	position: absolute;
+	background-position: left;
+	margin: 10px;
+	padding-bottom: 5px;
+	}
+
+#sol{
+	height: 120px;
+	width: 100px;
+	background: url(sol.jpg) no-repeat;
+	background-position: right;
+	float: right;
+	margin: 10px;
+	padding-bottom: 5px;
+	}
+
+marquee{
+	color: peachpuff;
+	font-family: "baskerville old face";
+	font-style: italic;
+	}	
+	
+#menu {
+	font-family: "baskerville old face" ;
+	font-size: 20px;
+	}
+	
+#menu a{
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 125px;
+	height: 40px;
+	background-color: lightcoral;
+	display: inline-block;
+	position: center;
+	margin-top: 30px;
+	}
+
+#menu a:link {color: #FFFFFF;}
+#menu a:visited {color: #FFFFFF;}
+#menu a:hover {color: #DB7093;}
+#menu a:focus {color: #C71585;}
+	
+#menu li{
+	margin: 3px;
+	}
+	
+.active{
+	color: black;
+	background-color:#002264;
+	}
+	
+.circle{
+    margin: 30px 40px 0px;
+    width: 260px;
+	height: 250px;
+	float: left;
+    background: indianred;
+    text-align: center;
+    border-radius: 170px;
+	line-height: 40px;
+	padding: 5px;
+	}
+	
+#acceuil{
+	background-color: rgba(225,225,255,0.95);
+	background: url("Partition.jpg") no-repeat;
+	background-size: 100%;
+	padding: 50px;
+	margin: 16px auto 30px;
+	font-family: "baskerville old face";
+	font-size: 15px;
+	box-shadow: 0px 3px 9px 2px #333;
+	width: 1000px;
+	height: 300px;
+	}
+	
+#milieu1{
+	width: 550px;
+	height: 160px;
+	background: url(images/fondnav.png) repeat;
+	float: right;
+	background-color: indianred;
+	padding: 15px;
+	padding-bottom: 25px;
+	margin-top: 75px;
+	}
+	
+h2{
+	color: black;
+	font-size: 27px;
+	text-decoration: underline;
+	background: lightcoral;
+	margin: auto auto 20px;
+	}
+	
+#milieu1 p {
+	font-size: 17px;
+	}	
+	
+#piano{
+	background-color: rgba(225,225,255,0.95);
+	background: url("partition.jpg") repeat-y;
+	background-size: 100%;
+	padding: 60px 20px 50px;
+	margin: 16px auto 30px;
+	font-family: "baskerville old face";
+	font-size: 15px;
+	box-shadow: 0px 3px 9px 2px #333;
+	width: 1200px;
+	height: 7100px;
+	}	
+	
+#milieu2{
+	width: 750px;
+	height: 210px;
+	float: right;
+	background-color: indianred;
+	padding: 15px;
+	margin-top: 60px;
+	}
+	
+#milieu2 li{
+	margin: 27px;
+	font-size: 15px;
+	}
+	
+#milieu2 a{
+	color: black;
+	}
+
+#milieu2 img{
+	float: left;
+	position: relative; 
+	height: 160px;
+	width: 230px;
+	margin-right: 10px;
+	}
+	
+#centre1{
+	width: 1200px;
+	height: 6755px;
+	font-family: "baskerville old face";
+	background-color: indianred;
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	}	
+	
+h4{
+	color: black;
+	font-size: 23px;
+	text-decoration: underline;
+	position: relative;
+	margin: 5px 15px auto;
+	}
+	
+p#lecon{
+	float: left;
+	font-size: 20px;
+	margin: 30px 110px auto;
+	}
+
+#lecon1piano{
+	width: 1155px;
+	height: 520px;
+	background-color: lightcoral;
+	box-shadow:0px 3px 9px 2px #333;
+	margin: 20px 23px 5px;
+	padding-top: 10px;
+	position: relative;
+	}
+	
+#lecon1piano img{
+	width: 330px;
+	height: 230px;
+	border: 6px solid peachpuff;
+	position: relative;
+	float: left;
+	margin: 50px 20px auto;
+	}
+
+#lecon2piano{
+	width: 1155px;
+	height: 2270px;
+	background-color: lightcoral;
+	box-shadow:0px 3px 9px 2px #333;
+	margin: 20px 23px 5px;
+	padding-top: 10px;
+	position: relative;
+	}
+	
+#lecon2piano img{
+	position: relative;
+	float: left;
+	border: 6px solid peachpuff;
+	margin-top: 40px;
+	}
+
+#notes{
+	width: 1000px;
+	height: 500px;
+	margin-left: 73px;
+	}
+	
+#aigugrave{
+	width: 400px;
+	height: 200px;
+	margin-left: 221px;
+	margin-left: 370px;
+	}
+	
+#lestemps{
+	width: 400px;
+	height: 400px;
+	margin-left: 145px;
+	}
+	
+#lessilences{
+	width: 400px;
+	height: 400px;
+	margin-left: 40px;
+	}
+	
+#ssol{
+	width: 90px;
+	height: 90px;
+	margin-left: 465px;
+	}
+	
+#fa{
+	width: 90px;
+	height: 90px;
+	margin-left: 40px;
+	}
+	
+#coordination{
+	width: 963px;
+	height: 350px;
+	margin-left: 15px;
+	}
+	
+#lecon3piano{
+	width: 1155px;
+	height: 1040px;
+	background-color: lightcoral;
+	box-shadow:0px 3px 9px 2px #333;
+	margin: 20px 23px 5px;
+	padding-top: 10px;
+	position: relative;
+	}
+	
+#lecon3piano img{
+	position: relative;
+	float: left;
+	border: 6px solid peachpuff;
+	margin-top: 40px;
+	margin-left: 170px;
+	width: 800px;
+	height: 800px;
+	}
+	
+#lecon4piano{
+	width: 1155px;
+	height: 1960px;
+	background-color: lightcoral;
+	box-shadow:0px 3px 9px 2px #333;
+	margin: 20px 23px 5px;
+	padding-top: 10px;
+	position: relative;
+	}
+	
+#lecon4piano iframe{
+	position: relative;
+	float: left; 
+	margin: 30px;
+	margin-left: 100px;
+	border: 4px solid peachpuff;
+	}
+	
+#lecon4piano p{
+	position: relative;
+	float: right;
+	margin: 180px 3px auto;
+	margin-right: 50px;
+	font-size: 17px;
+	background: linear-gradient(to right,lightcoral,crimson)
+	}
+	
+#lecon4piano a:link {color: #FFFAFA;}
+
+#lecon4piano a:visited {color: #FFFFFF;}
+
+#lecon4piano a:hover {color: #C71585;}
+
+#lecon4piano a:focus {color: #C71585;}
+	
+#guitare{
+	background-color: rgba(225,225,255,0.95);
+	background: url("partition.jpg") repeat-y;
+	background-size: 100%;
+	padding: 60px 20px 50px;
+	margin: 16px auto 30px;
+	font-family: "baskerville old face";
+	font-size: 15px;
+	box-shadow: 0px 3px 9px 2px #333;
+	width: 1250px;
+	height: 7200px;
+	}
+	
+#centre2{
+	width: 1200px;
+	height: 6825px;
+	font-family: "baskerville old face";
+	background-color: indianred;
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	margin-left: 26px;
+	}
+	
+#lecon1guitare{
+	width: 1155px;
+	height: 1750px;
+	background-color: lightcoral;
+	box-shadow:0px 3px 9px 2px #333;
+	margin: 20px 23px 5px;
+	padding-top: 10px;
+	position: relative;
+	}	
+	
+#structure{
+	width: 430px;
+	height: 455px;
+	border: 6px solid peachpuff;
+	margin: 50px 245px 50px;
+	}
+	
+#posture{
+	width: 350px;
+	height: 330px;
+	border: 6px solid peachpuff;
+	margin: 50px 106px 50px;
+	}
+	
+#mediator{
+	width: 700px;
+	height:300px;
+	border: 6px solid peachpuff;
+	margin: 50px 221px auto;
+	}
+	
+#lecon2guitare{
+	width: 1155px;
+	height: 1150px;
+	background-color: lightcoral;
+	box-shadow:0px 3px 9px 2px #333;
+	margin: 20px 23px 5px;
+	padding-top: 10px;
+	position: relative;
+	}	
+	
+#lecon2guitare img{
+	border: 6px solid peachpuff;
+	}
+	
+#tablature{
+	width: 850px;
+	height: 160px;
+	margin: 50px 145px 20px;
+	}
+	
+#lecon2{
+	float: left;
+	font-size: 20px;
+	margin: 30px 110px 70px;
+	}
+	
+#special{
+	color: black;
+	font-size: 23px;
+	text-decoration: underline;
+	position: justify;
+	margin: 0px 174px auto;
+	}
+	
+#mains{
+	width: 200px;
+	height: 200px;
+	margin: 50px auto auto;
+	margin-left: 140px;
+	margin-right: 265px;
+	position: relative;
+	float: left;
+	}
+	
+#lecon3{
+	float: left;
+	font-size: 20px;
+	margin: 30px;
+	margin-left: 140px;
+	margin-right: 20px;
+	}
+	
+#fondamentaux{
+	width: 450px;
+	height: 380px;
+	margin: 50px 0px 20px;
+	}
+	
+#lecon3guitare{
+	width: 1155px;
+	height: 1820px;
+	background-color: lightcoral;
+	box-shadow:0px 3px 9px 2px #333;
+	margin: 20px 23px 5px;
+	padding-top: 10px;
+	position: relative;
+	}
+
+#lecon3guitare img{
+	width: 800px;
+	height: 650px;
+	border: 6px solid peachpuff;
+	margin: 100px 100px auto;
+	}	
+	
+main li{
+	list-style-type: none;
+	}
+
+footer{
+	background-color: indianred;
+	font-size: 15px;
+	width: 1349px;
+	height: 120px;
+	}
+
+table{
+	width: 1250px;
+	height: 110px;
+	}
+
+th{
+	text-align: center;
+	width: 600px;
+	}
+	
+td{
+	text-align: center;
+	font-family: "Courier New";
+	}
+
+
+
+
+
+
+
+
+	
+
+	
